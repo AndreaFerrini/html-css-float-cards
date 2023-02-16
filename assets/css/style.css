@@ -20,8 +20,8 @@ main {
 }
 h2 {
     color: #c44156;
-    font-size: 50px;
     text-align: center;
+    font-size: 50px;
 }
 p {
     padding: 20px;
@@ -48,3 +48,8 @@ ul {
 #contatto {
     color: aqua;
 }
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
