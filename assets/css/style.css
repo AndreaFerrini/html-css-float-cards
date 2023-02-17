@@ -28,7 +28,7 @@ p {
 }
 .card {
     float: left;
-    width: 300px;
+    width: calc( 80% / 3);
     height: 100px;
     margin: 30px;
     background-color: black;;
@@ -37,11 +37,11 @@ p {
 .card img {
     max-width: 40%;
     max-height: 100%;
-    position: relative;
+    float: left;
 }
 ul {
-    position: absolute;
     color: white;
+    float: right;
     list-style: none;
     display: inline;
     padding: 10px;
